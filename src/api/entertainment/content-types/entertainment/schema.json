@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "entertainments",
+  "info": {
+    "singularName": "entertainment",
+    "pluralName": "entertainments",
+    "displayName": "Entertainment"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Thumbnail": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "Title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "built_in6s",
+  "info": {
+    "singularName": "built-in6",
+    "pluralName": "built-in6s",
+    "displayName": "BuiltIn6"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

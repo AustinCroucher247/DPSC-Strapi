@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "furniture2s",
+  "info": {
+    "singularName": "furniture2",
+    "pluralName": "furniture2s",
+    "displayName": "Furniture2"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

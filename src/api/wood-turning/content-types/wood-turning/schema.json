@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "wood_turnings",
+  "info": {
+    "singularName": "wood-turning",
+    "pluralName": "wood-turnings",
+    "displayName": "Wood Turnings"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Thumbnail": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "Title": {
+      "type": "string"
+    }
+  }
+}

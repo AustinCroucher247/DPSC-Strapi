@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kitchen1s",
+  "info": {
+    "singularName": "kitchen1",
+    "pluralName": "kitchen1s",
+    "displayName": "Kitchen1",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

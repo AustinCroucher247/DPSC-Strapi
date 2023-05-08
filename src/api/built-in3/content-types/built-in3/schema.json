@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "built_in3s",
+  "info": {
+    "singularName": "built-in3",
+    "pluralName": "built-in3s",
+    "displayName": "BuiltIn3",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

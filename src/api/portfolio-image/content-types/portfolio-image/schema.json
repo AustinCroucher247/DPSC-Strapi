@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "portfolio_images",
+  "info": {
+    "singularName": "portfolio-image",
+    "pluralName": "portfolio-images",
+    "displayName": "Portfolio Images"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

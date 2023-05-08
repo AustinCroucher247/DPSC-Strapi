@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "miscellaneous",
+  "info": {
+    "singularName": "miscellaneou",
+    "pluralName": "miscellaneous",
+    "displayName": "Miscellaneous"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Thumbnail": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "Title": {
+      "type": "string"
+    }
+  }
+}

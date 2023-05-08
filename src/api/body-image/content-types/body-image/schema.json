@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "body_images",
+  "info": {
+    "singularName": "body-image",
+    "pluralName": "body-images",
+    "displayName": "Body Image",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

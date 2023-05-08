@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "all_built_ins",
+  "info": {
+    "singularName": "all-built-in",
+    "pluralName": "all-built-ins",
+    "displayName": "All Built Ins",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string"
+    }
+  }
+}
