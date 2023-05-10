@@ -7,7 +7,7 @@
     "memory-usage": "node -e \"console.log(JSON.stringify(process.memoryUsage(), null, 2))\"",
     "preinstall": "npx npm-force-resolutions",
     "develop": "strapi develop",
-    "start": "strapi start",
+    "start": "NODE_ENV=production strapi start",
     "build": "strapi build",
     "strapi": "strapi"
   },
