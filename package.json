@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
+    "memory-usage": "node -e \"console.log(JSON.stringify(process.memoryUsage(), null, 2))\"",
     "preinstall": "npx npm-force-resolutions",
     "develop": "strapi develop",
     "start": "strapi start",
