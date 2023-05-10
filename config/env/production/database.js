@@ -7,7 +7,7 @@ module.exports = ({ env }) => {
 
     return {
         connection: {
-            client: 'postgres',
+            client: 'sqlite',
             connection: {
                 host,
                 port,
