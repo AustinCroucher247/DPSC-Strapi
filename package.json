@@ -20,9 +20,7 @@
   "resolutions": {
     "strapi/strapi": "4.10.2"
   },
-  "author": {
-    "name": "A Strapi developer"
-  },
+  "author": "A Strapi developer",
   "strapi": {
     "uuid": "1906013c-e9c8-433e-aeb8-daa3c0ed5e68"
   },
@@ -33,5 +31,6 @@
   "license": "MIT",
   "devDependencies": {
     "npm-force-resolutions": "^0.0.10"
-  }
+  },
+  "main": "index.js"
 }
