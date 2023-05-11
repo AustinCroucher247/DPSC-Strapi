@@ -13,6 +13,7 @@ RUN npm install
 # Copy the rest of the application code to the working directory
 COPY . .
 
+ENV PORT 1337
 # Expose the port the app will run on
 EXPOSE 1337
 
