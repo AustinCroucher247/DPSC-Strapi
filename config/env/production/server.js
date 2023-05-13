@@ -11,9 +11,10 @@ module.exports = ({ env }) => ({
         keys: env.array('APP_KEYS', [
             'SrctwrjF3JlOJQjtR1m/cV7Mqji9zfvSAwqI5ra2LbU=',
             'MgWduYqv9wUYTBi9jGg/LedxCR+4K3hVRiEQ8Xb3jjU=',
-            'V2KaCFGFqnix9XYHLyiLdDaFIot1tPIvpGXY0Xx/beg='
+            'V2KaCFGFqnix9XYHLyiLdDaFIot1tPIvpGXY0Xx/beg=',
         ]),
-        webhooks: {
-            populateRelations: env.bool('WEBHOOKS_POPULATE_RELATIONS', false),
-        },
-    });
+    },
+    webhooks: {
+        populateRelations: env.bool('WEBHOOKS_POPULATE_RELATIONS', false),
+    },
+});
